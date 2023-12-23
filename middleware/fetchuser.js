@@ -1,6 +1,6 @@
 var jwt = require('jsonwebtoken');
 require('dotenv').config();
-// const JWT_SECRET = '8454085904';
+// const JWT_SECRET = '';
 const JWT_SECRET = process.env.JWT_SECRET || 'fallbackSecret';
 
 const fetchuser = (req, res, next) => {
